@@ -1,0 +1,486 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url("/css/fonts/Montserrat\ Regular\ 400.ttf") format("ttf"),
+        url("/css/fonts/Montserrat-Regular.otf") format("opentype");
+}
+
+$maxW : 1200px;
+/*-------------------------TABLE DES STYLES -------------------------*/
+/*-------------------------GLOBAL-------------------------*/
+/*-------------------------HEADER-------------------------*/
+/*-------------------------MAIN--------------------*/
+
+
+
+* {
+    margin: 0;
+
+
+
+}
+
+body ul {
+    list-style: none;
+}
+
+
+header {
+    background: #E5E5E5;
+}
+label
+{
+    display: none;
+}
+
+
+
+
+nav .liens {
+    display: flex;
+    margin: auto;
+    max-width: $maxW;
+
+
+}
+
+nav {
+    background-color: #345765;
+
+    color: white;
+
+    padding: 1rem;
+
+}
+
+nav a {
+    padding: 1rem 2rem;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+nav li {
+    display: flex;
+    font-size: 1.25rem;
+    font-family: 'lato';
+
+}
+
+nav ul {
+    margin: 0 auto;
+    display: flex;
+
+
+
+
+}
+
+
+
+nav li a:visited {
+    color: white;
+}
+
+nav li:hover {
+    text-transform: uppercase;
+    text-shadow: #FC0 1px 0 10px;
+    ;
+}
+
+
+.sousheader {
+
+    max-width: $maxW;
+    margin: auto;
+    padding: 3.5rem 1.25rem;
+
+
+    h1 {
+        padding: 3.5rem 0;
+        margin: 0;
+        font-family: 'Montserrat';
+        text-transform: uppercase;
+        font-style: normal;
+        color: #34A58A;
+        font-weight: 700;
+
+
+
+        font-size: 2.25rem;
+
+        line-height: 60px;
+        letter-spacing: 0.06em;
+    }
+
+    img {
+        max-width: 100%;
+        width: 100%;
+        object-fit: cover;
+        height: 100%;
+        border-radius: inherit;
+    }
+}
+
+time {
+    font-weight: 400;
+}
+
+main {
+    background: #E5E5E5;
+}
+
+
+
+
+
+main {
+
+    padding: 0 2rem;
+
+}
+
+main .firstdiv {
+    max-width: $maxW;
+    margin: auto;
+    display: flex;
+    margin-bottom: 5rem;
+
+}
+
+main section {
+    font-size: 20px;
+}
+
+.text {
+    font-size: 1.25rem;
+    font-family: 'lato';
+    color: #000000;
+    padding-right: 18rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.05rem;
+    font-style: normal;
+    font-weight: 300;
+
+
+}
+
+.coor {
+    img {
+        margin: 1.25rem 1.25rem 0 0;
+    }
+
+
+    a {
+        color: #34A58A;
+        text-decoration: none;
+        margin: 1rem 0 0 1rem;
+
+
+    }
+ 
+    
+
+}
+
+
+
+
+
+
+main section .map {
+    float: right;
+    padding-left: 2.5rem;
+    padding-bottom: 1.25rem;
+
+
+}
+
+main section .iframe {
+    overflow: hidden;
+    padding: 40px 0;
+    height: auto;
+    width: 400px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    margin-top: -150px;
+    margin-bottom: -150px;
+    border: none;
+
+}
+
+h2 {
+    font-size: 2.25rem;
+    letter-spacing: 0.1rem;
+    color: #6b5b54;
+    font-weight: 600;
+    padding: 3.5rem 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+
+main div div {
+    display: flex;
+    flex-direction: column;
+}
+
+main article {
+    display: flex;
+}
+
+.last {
+    background-color: #FFFFFF;
+    margin: auto;
+    max-width: 1400px;
+    padding: 0 1.25rem;
+
+
+
+
+    .lastart {
+
+
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+        article {
+            display: flex;
+            flex-direction: row;
+            margin-bottom: 2.75rem;
+            padding-right: 2rem;
+          
+
+        }
+
+        &:nth-of-type(2n) {
+            padding-right: 0.75rem;
+
+        }
+    }
+
+    .artround {
+       
+        width: 60%;
+     
+    }
+}
+.artround {
+    padding-left: 2rem;
+  text-overflow: ellipsis;
+
+    h3 {
+font-size: 1.5rem;
+font-family: 'Montserrat-Regular';
+    font-weight: 600;
+
+    line-height: 32px;
+
+
+letter-spacing: 0.06em;
+}
+
+
+    time {
+
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.75em;
+        line-height: 14px;
+    
+    
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.06em;
+    
+        color: #345765;
+    }
+    
+    p {
+        font-family: 'Lato';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.25rem;
+        line-height: 22px;
+
+
+         letter-spacing: 0.04em;
+    }
+.knowmore {
+    margin-top: auto;
+} 
+
+}
+
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 2.9rem 2rem;
+    color: #6B5B54;
+}
+
+.allin {
+
+    font-family: 'Montserrat';
+    background-color: #34A58A;
+    padding: 1rem;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+    :visited {
+        color: white;
+    }
+
+
+}
+.knowmore a{
+   
+    color: #34A58A;
+    text-decoration: none;
+
+    a:visited {
+        color: #34A58A;
+    }
+}
+footer {
+    padding-top: 5rem;
+    background-color: #345765;
+
+
+
+    .foot {
+        max-width: $maxW;
+        margin: auto;
+        padding: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+
+
+    }
+
+    ul {
+        padding: 0;
+
+    }
+
+    div li {
+        color: #FFFFFF;
+
+    }
+
+    h3 {
+        color: #FFFFFF;
+        text-decoration: underline;
+        font-family: 'lato';
+    }
+
+    li {
+        list-style: none;
+      
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 1.25rem;
+        color: #FFFFFF;
+        font-family: 'lato';
+       
+    }
+
+}
+
+footer p {
+    text-align: center;
+    font-family: 'Montserrat-Regular';
+
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+   
+
+
+
+    letter-spacing: 0.06em;
+
+    color: #FFFFFF;
+}
+.logo img {
+    height: 115px;
+    width: 115px;
+}
+footer li  {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  a {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 1100px){
+
+body {
+    display: block;
+}
+
+    
+
+.first {
+    position: static;
+    width: 100%;
+   
+}
+
+
+main  .firstdiv {
+    overflow: hidden;
+}
+}
+p {
+    
+        max-width: 200px;   
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    }
+img {
+    max-width: 100%;
+}
+.iframe {
+    position: static;
+}
+
+
+@media screen and (max-width: 768px){
+
+  
+   
+        nav
+        {
+            height: 60px;
+        }
+     
+        nav .liens 
+        {
+            display: none;
+        }
+     
+        label 
+        {
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            font-size: 40px;
+            color: white;
+          
+        }
+    }
